@@ -19,4 +19,4 @@ jobs:
           python -m pip install --upgrade pip  # Upgrade pip
           pip install pytest  # Install pytest
       - name: Run Python Tests
-        run: pytest test_calc.py  # This runs your test
+        run: pytest testCalc.py  # This runs your test
